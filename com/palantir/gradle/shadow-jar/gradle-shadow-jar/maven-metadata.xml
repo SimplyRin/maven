@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.palantir.gradle.shadow-jar</groupId>
+  <artifactId>gradle-shadow-jar</artifactId>
+  <versioning>
+    <latest>2.5.0-50-g88c25eb</latest>
+    <release>2.5.0-50-g88c25eb</release>
+    <versions>
+      <version>2.5.0-50-g88c25eb</version>
+    </versions>
+    <lastUpdated>20220409055101</lastUpdated>
+  </versioning>
+</metadata>

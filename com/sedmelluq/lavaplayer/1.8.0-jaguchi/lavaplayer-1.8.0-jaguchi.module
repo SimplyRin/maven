@@ -1,0 +1,177 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.sedmelluq",
+    "module": "lavaplayer",
+    "version": "1.8.0-jaguchi",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.2",
+      "buildId": "gmqq24g6sndbdndxnldgs3nkka"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.sedmelluq",
+          "module": "lava-common",
+          "version": {
+            "requires": "1.1.2"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.25"
+          }
+        },
+        {
+          "group": "org.apache.httpcomponents",
+          "module": "httpclient",
+          "version": {
+            "requires": "4.5.14"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lavaplayer-1.8.0-jaguchi.jar",
+          "url": "lavaplayer-1.8.0-jaguchi.jar",
+          "size": 836007,
+          "sha512": "f7d9617a9b63b99129dfde908808b6d0d932fe392fe3031c29405e493fbba06297b4d1ddf6a4647d57f00ba335f2b62db6c622bf92fe77d29c5d7a5bd2695493",
+          "sha256": "056e1002bdb9ca605bc9401601b298d2280f2dc4d4f5e9c72eea2effd154eb02",
+          "sha1": "11a95755c1b86ae7e63af500ca692fd30cee4824",
+          "md5": "6f09b6734f5be70af24ace2a77846f18"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.devoxin",
+          "module": "lavaplayer-natives-fork",
+          "version": {
+            "requires": "1.0.3"
+          }
+        },
+        {
+          "group": "com.github.walkyst.JAADec-fork",
+          "module": "jaadec-ext-aac",
+          "version": {
+            "requires": "0.1.3"
+          }
+        },
+        {
+          "group": "org.mozilla",
+          "module": "rhino-engine",
+          "version": {
+            "requires": "1.7.14"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.14.0"
+          }
+        },
+        {
+          "group": "org.jsoup",
+          "module": "jsoup",
+          "version": {
+            "requires": "1.16.2"
+          }
+        },
+        {
+          "group": "com.grack",
+          "module": "nanojson",
+          "version": {
+            "requires": "1.7"
+          }
+        },
+        {
+          "group": "com.sedmelluq",
+          "module": "lava-common",
+          "version": {
+            "requires": "1.1.2"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.25"
+          }
+        },
+        {
+          "group": "org.apache.httpcomponents",
+          "module": "httpclient",
+          "version": {
+            "requires": "4.5.14"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lavaplayer-1.8.0-jaguchi.jar",
+          "url": "lavaplayer-1.8.0-jaguchi.jar",
+          "size": 836007,
+          "sha512": "f7d9617a9b63b99129dfde908808b6d0d932fe392fe3031c29405e493fbba06297b4d1ddf6a4647d57f00ba335f2b62db6c622bf92fe77d29c5d7a5bd2695493",
+          "sha256": "056e1002bdb9ca605bc9401601b298d2280f2dc4d4f5e9c72eea2effd154eb02",
+          "sha1": "11a95755c1b86ae7e63af500ca692fd30cee4824",
+          "md5": "6f09b6734f5be70af24ace2a77846f18"
+        }
+      ]
+    }
+  ]
+}

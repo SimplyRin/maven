@@ -1,0 +1,170 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.sedmelluq",
+    "module": "lavaplayer",
+    "version": "1.9.0_84520ce",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.2",
+      "buildId": "sr4z3fcl3nb7jmyznrsjqnmbk4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.sedmelluq",
+          "module": "lava-common",
+          "version": {
+            "requires": "1.1.2"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.25"
+          }
+        },
+        {
+          "group": "org.apache.httpcomponents",
+          "module": "httpclient",
+          "version": {
+            "requires": "4.5.14"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.17.1"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.17.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lavaplayer-1.9.0_84520ce.jar",
+          "url": "lavaplayer-1.9.0_84520ce.jar",
+          "size": 765636,
+          "sha512": "d705a1b695c4e31c48a72ad58f91799db16475740717d695c354c5c6de52b97368179977d90b8947fe8cae6859ecfbe89060f410790e84892dcf783ee5c0a41c",
+          "sha256": "10bf7f66e65967da8462250afc70e146c566735dd656a0ef3584b19931cd3b4b",
+          "sha1": "4fd9a7bf773017f01942879c65353650a3b79dcf",
+          "md5": "ad29c6857189e6e241990f50c3905f9c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.devoxin",
+          "module": "lavaplayer-natives-fork",
+          "version": {
+            "requires": "0a17a66"
+          }
+        },
+        {
+          "group": "org.mozilla",
+          "module": "rhino-engine",
+          "version": {
+            "requires": "1.7.14"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.16.1"
+          }
+        },
+        {
+          "group": "org.jsoup",
+          "module": "jsoup",
+          "version": {
+            "requires": "1.17.2"
+          }
+        },
+        {
+          "group": "com.grack",
+          "module": "nanojson",
+          "version": {
+            "requires": "1.7"
+          }
+        },
+        {
+          "group": "com.sedmelluq",
+          "module": "lava-common",
+          "version": {
+            "requires": "1.1.2"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.25"
+          }
+        },
+        {
+          "group": "org.apache.httpcomponents",
+          "module": "httpclient",
+          "version": {
+            "requires": "4.5.14"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.17.1"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.17.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lavaplayer-1.9.0_84520ce.jar",
+          "url": "lavaplayer-1.9.0_84520ce.jar",
+          "size": 765636,
+          "sha512": "d705a1b695c4e31c48a72ad58f91799db16475740717d695c354c5c6de52b97368179977d90b8947fe8cae6859ecfbe89060f410790e84892dcf783ee5c0a41c",
+          "sha256": "10bf7f66e65967da8462250afc70e146c566735dd656a0ef3584b19931cd3b4b",
+          "sha1": "4fd9a7bf773017f01942879c65353650a3b79dcf",
+          "md5": "ad29c6857189e6e241990f50c3905f9c"
+        }
+      ]
+    }
+  ]
+}

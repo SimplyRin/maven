@@ -1,0 +1,61 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.sedmelluq",
+    "module": "lavaplayer-ext-youtube-rotator",
+    "version": "0.2.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.2",
+      "buildId": "gmqq24g6sndbdndxnldgs3nkka"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "lavaplayer-ext-youtube-rotator-0.2.3.jar",
+          "url": "lavaplayer-ext-youtube-rotator-0.2.3.jar",
+          "size": 36257,
+          "sha512": "e83ce0a923eed4d7e997f3bca483bbc701c7daac23e82dc94284a9dc3d02077ad69763ffd6dc970aaef0bfc3cdb2a41ec48b03cf445702449e12675c8b5c0513",
+          "sha256": "9da7782a411524d5b64830a01b365094ee46da68bcd4cf1ce5485f9280c18e98",
+          "sha1": "94e38daeb54eb22245b8c57808a9633262671ae8",
+          "md5": "9a08ac1b6a96a37f43892692ca07aa64"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "lavaplayer-ext-youtube-rotator-0.2.3.jar",
+          "url": "lavaplayer-ext-youtube-rotator-0.2.3.jar",
+          "size": 36257,
+          "sha512": "e83ce0a923eed4d7e997f3bca483bbc701c7daac23e82dc94284a9dc3d02077ad69763ffd6dc970aaef0bfc3cdb2a41ec48b03cf445702449e12675c8b5c0513",
+          "sha256": "9da7782a411524d5b64830a01b365094ee46da68bcd4cf1ce5485f9280c18e98",
+          "sha1": "94e38daeb54eb22245b8c57808a9633262671ae8",
+          "md5": "9a08ac1b6a96a37f43892692ca07aa64"
+        }
+      ]
+    }
+  ]
+}

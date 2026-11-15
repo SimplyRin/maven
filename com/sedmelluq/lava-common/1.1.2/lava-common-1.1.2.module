@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.sedmelluq",
+    "module": "lava-common",
+    "version": "1.1.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.2",
+      "buildId": "gmqq24g6sndbdndxnldgs3nkka"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "lava-common-1.1.2.jar",
+          "url": "lava-common-1.1.2.jar",
+          "size": 27221,
+          "sha512": "44c0ddd9dfd8856c64a7a529384a2cb288c1bd31da0ec49300df32e2b133692eb4892b858787b77f30c99d11494d35866cc16550565944b8a525d3b7948092e1",
+          "sha256": "dedda8b8b3f8639bd42558d6f4968d3e409d0ac05eaf3c08ac0f60cfec0f43e2",
+          "sha1": "45e2beafcd887d548b2b2c93e0f1f0bc592ca17a",
+          "md5": "293bc6676f629dec63ce739cf4ed5d35"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.25"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lava-common-1.1.2.jar",
+          "url": "lava-common-1.1.2.jar",
+          "size": 27221,
+          "sha512": "44c0ddd9dfd8856c64a7a529384a2cb288c1bd31da0ec49300df32e2b133692eb4892b858787b77f30c99d11494d35866cc16550565944b8a525d3b7948092e1",
+          "sha256": "dedda8b8b3f8639bd42558d6f4968d3e409d0ac05eaf3c08ac0f60cfec0f43e2",
+          "sha1": "45e2beafcd887d548b2b2c93e0f1f0bc592ca17a",
+          "md5": "293bc6676f629dec63ce739cf4ed5d35"
+        }
+      ]
+    }
+  ]
+}
